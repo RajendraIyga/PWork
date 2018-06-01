@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "amd",
+    "target": "es5",
+    "lib": [ "es5", "dom", "scripthost" ],
+    "moduleResolution": "classic",
+    "rootDir": "src",
+    "outDir": "output",
+    "baseUrl": "node_modules/@brady/bwf/scripts/kendo",
+    "paths": {
+      "*": [ "*", "../*" ],
+      "modules/*": [ "*", "../../modules/*", "../../../../../src/modules/*" ],
+      "scripts/*": [ "*", "../*", "../../../../../src/scripts/*" ]
+    },
+    "rootDirs": [
+      "src",
+      "node_modules/@brady/bwf"
+    ]
+  },
+    "include": [
+        "src/**/*.ts"
+    ]
+}

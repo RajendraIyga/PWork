@@ -1,0 +1,212 @@
+2018-05-23 11:01:56,672 INFO  - Resetting session timeout to enabled
+2018-05-23 11:01:56,737 INFO  - Resetting session timeout process to 5 minute interval.
+2018-05-23 11:01:57,070 ERROR - Error starting explorer: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Rajendra.Iyga\BWF\BCRBWF\BCR.ExplorerHost\output\Content\bootstrap.min.css'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at SquishIt.Framework.Files.RetryableFileOpener.OpenTextStreamReader(String filePath, Int32 retry) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\Files\RetryableFileOpener.cs:line 109
+   at SquishIt.Framework.Files.FileReaderFactory.GetFileReader(String file) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\Files\FileReaderFactory.cs:line 18
+   at SquishIt.Framework.Base.BundleBase`1.ReadFile(String file) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\Base\BundleBase.Rendering.Internals.cs:line 100
+   at SquishIt.Framework.CSS.CSSBundle.ProcessCssFile(String file, String outputFile, String fileForCssRewriter, Boolean asImport) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\CSS\CSSBundle.cs:line 140
+   at SquishIt.Framework.CSS.CSSBundle.ProcessFile(String file, String outputFile, Asset originalAsset) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\CSS\CSSBundle.cs:line 133
+   at SquishIt.Framework.CSS.CSSBundle.<>c__DisplayClass7.<>c__DisplayClass9.<AggregateContent>b__4(String f) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\CSS\CSSBundle.cs:line 119
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Enumerable.<SelectManyIterator>d__17`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at SquishIt.Framework.CSS.CSSBundle.AggregateContent(List`1 assets, StringBuilder sb, String outputFile) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\CSS\CSSBundle.cs:line 117
+   at SquishIt.Framework.Base.BundleBase`1.GetMinifiedContent(List`1 assets, String outputFile) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\Base\BundleBase.Rendering.Internals.cs:line 345
+   at SquishIt.Framework.Base.BundleBase`1.RenderRelease(String key, String renderTo, IRenderer renderer) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\Base\BundleBase.Rendering.Internals.cs:line 302
+   at SquishIt.Framework.Base.BundleBase`1.Render(String renderTo, String key, IRenderer renderer) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\Base\BundleBase.Rendering.Internals.cs:line 169
+   at SquishIt.Framework.Base.BundleBase`1.AsCached(String name, String renderToFilePath) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\Base\BundleBase.cs:line 491
+   at BWF.Explorer.StartUp.Utils.CssBundleConfig.RebuildCssBundles()
+   at BWF.Explorer.StartUp.Nancy.ExplorerBootstrapper.ApplicationStartup(IKernel container, IPipelines pipelines)
+   at Nancy.Bootstrapper.NancyBootstrapperBase`1.Initialise()
+   at Nancy.Owin.NancyMiddleware.UseNancy(NancyOptions options)
+   at Owin.AppBuilderExtensions.UseNancy(IAppBuilder builder, NancyOptions options)
+   at BWF.Explorer.StartUp.Concrete.ExplorerStartup.Configuration(IAppBuilder app)
+   at BWF.Explorer.StartUp.Concrete.ExplorerService.<Start>b__4_1(IAppBuilder ab)
+   at Microsoft.Owin.Hosting.Engine.HostingEngine.ResolveApp(StartContext context)
+   at Microsoft.Owin.Hosting.Engine.HostingEngine.Start(StartContext context)
+   at Microsoft.Owin.Hosting.WebApp.StartImplementation(IServiceProvider services, StartOptions options, Action`1 startup)
+   at BWF.Explorer.StartUp.Concrete.ExplorerService.Start()
+2018-05-23 11:01:57,096 INFO  - The Explorer host is up and running.
+2018-05-23 11:01:57,813 INFO  - Data services successfully refreshed for host https://localhost:5555.
+2018-05-23 11:01:59,962 WARN  - Failed to prompt data service at https://localhost:5555/api/membership to update membership details: An error occurred while sending the request., the service may be temporarily unavailable.
+2018-05-23 11:02:01,967 WARN  - Failed to prompt data service at https://localhost:5555/api/explorer to update membership details: An error occurred while sending the request., the service may be temporarily unavailable.
+2018-05-23 11:02:01,968 WARN  - Failed to prompt data service at https://localhost:5555/api/bcr to update membership details: An error occurred while sending the request., the service may be temporarily unavailable.
+2018-05-23 11:23:07,909 INFO  - Resetting session timeout to enabled
+2018-05-23 11:23:07,972 INFO  - Resetting session timeout process to 5 minute interval.
+2018-05-23 11:23:08,347 ERROR - Error starting explorer: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Rajendra.Iyga\BWF\BCRBWF\BCR.ExplorerHost\output\Content\bootstrap.min.css'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at SquishIt.Framework.Files.RetryableFileOpener.OpenTextStreamReader(String filePath, Int32 retry) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\Files\RetryableFileOpener.cs:line 109
+   at SquishIt.Framework.Files.FileReaderFactory.GetFileReader(String file) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\Files\FileReaderFactory.cs:line 18
+   at SquishIt.Framework.Base.BundleBase`1.ReadFile(String file) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\Base\BundleBase.Rendering.Internals.cs:line 100
+   at SquishIt.Framework.CSS.CSSBundle.ProcessCssFile(String file, String outputFile, String fileForCssRewriter, Boolean asImport) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\CSS\CSSBundle.cs:line 140
+   at SquishIt.Framework.CSS.CSSBundle.ProcessFile(String file, String outputFile, Asset originalAsset) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\CSS\CSSBundle.cs:line 133
+   at SquishIt.Framework.CSS.CSSBundle.<>c__DisplayClass7.<>c__DisplayClass9.<AggregateContent>b__4(String f) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\CSS\CSSBundle.cs:line 119
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Enumerable.<SelectManyIterator>d__17`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at SquishIt.Framework.CSS.CSSBundle.AggregateContent(List`1 assets, StringBuilder sb, String outputFile) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\CSS\CSSBundle.cs:line 117
+   at SquishIt.Framework.Base.BundleBase`1.GetMinifiedContent(List`1 assets, String outputFile) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\Base\BundleBase.Rendering.Internals.cs:line 345
+   at SquishIt.Framework.Base.BundleBase`1.RenderRelease(String key, String renderTo, IRenderer renderer) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\Base\BundleBase.Rendering.Internals.cs:line 302
+   at SquishIt.Framework.Base.BundleBase`1.Render(String renderTo, String key, IRenderer renderer) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\Base\BundleBase.Rendering.Internals.cs:line 169
+   at SquishIt.Framework.Base.BundleBase`1.AsCached(String name, String renderToFilePath) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\Base\BundleBase.cs:line 491
+   at BWF.Explorer.StartUp.Utils.CssBundleConfig.RebuildCssBundles()
+   at BWF.Explorer.StartUp.Nancy.ExplorerBootstrapper.ApplicationStartup(IKernel container, IPipelines pipelines)
+   at Nancy.Bootstrapper.NancyBootstrapperBase`1.Initialise()
+   at Nancy.Owin.NancyMiddleware.UseNancy(NancyOptions options)
+   at Owin.AppBuilderExtensions.UseNancy(IAppBuilder builder, NancyOptions options)
+   at BWF.Explorer.StartUp.Concrete.ExplorerStartup.Configuration(IAppBuilder app)
+   at BWF.Explorer.StartUp.Concrete.ExplorerService.<Start>b__4_1(IAppBuilder ab)
+   at Microsoft.Owin.Hosting.Engine.HostingEngine.ResolveApp(StartContext context)
+   at Microsoft.Owin.Hosting.Engine.HostingEngine.Start(StartContext context)
+   at Microsoft.Owin.Hosting.WebApp.StartImplementation(IServiceProvider services, StartOptions options, Action`1 startup)
+   at BWF.Explorer.StartUp.Concrete.ExplorerService.Start()
+2018-05-23 11:23:08,378 INFO  - The Explorer host is up and running.
+2018-05-23 11:23:09,112 INFO  - Data services successfully refreshed for host https://localhost:5555.
+2018-05-23 11:23:11,301 WARN  - Failed to prompt data service at https://localhost:5555/api/membership to update membership details: An error occurred while sending the request., the service may be temporarily unavailable.
+2018-05-23 11:23:13,336 WARN  - Failed to prompt data service at https://localhost:5555/api/explorer to update membership details: An error occurred while sending the request., the service may be temporarily unavailable.
+2018-05-23 11:23:13,336 WARN  - Failed to prompt data service at https://localhost:5555/api/bcr to update membership details: An error occurred while sending the request., the service may be temporarily unavailable.
+2018-05-23 12:09:36,303 INFO  - Resetting session timeout to enabled
+2018-05-23 12:09:36,364 INFO  - Resetting session timeout process to 5 minute interval.
+2018-05-23 12:09:36,715 ERROR - Error starting explorer: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Rajendra.Iyga\BWF\BCRBWF\BCR.ExplorerHost\output\Content\bootstrap.min.css'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at SquishIt.Framework.Files.RetryableFileOpener.OpenTextStreamReader(String filePath, Int32 retry) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\Files\RetryableFileOpener.cs:line 109
+   at SquishIt.Framework.Files.FileReaderFactory.GetFileReader(String file) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\Files\FileReaderFactory.cs:line 18
+   at SquishIt.Framework.Base.BundleBase`1.ReadFile(String file) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\Base\BundleBase.Rendering.Internals.cs:line 100
+   at SquishIt.Framework.CSS.CSSBundle.ProcessCssFile(String file, String outputFile, String fileForCssRewriter, Boolean asImport) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\CSS\CSSBundle.cs:line 140
+   at SquishIt.Framework.CSS.CSSBundle.ProcessFile(String file, String outputFile, Asset originalAsset) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\CSS\CSSBundle.cs:line 133
+   at SquishIt.Framework.CSS.CSSBundle.<>c__DisplayClass7.<>c__DisplayClass9.<AggregateContent>b__4(String f) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\CSS\CSSBundle.cs:line 119
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Enumerable.<SelectManyIterator>d__17`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at SquishIt.Framework.CSS.CSSBundle.AggregateContent(List`1 assets, StringBuilder sb, String outputFile) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\CSS\CSSBundle.cs:line 117
+   at SquishIt.Framework.Base.BundleBase`1.GetMinifiedContent(List`1 assets, String outputFile) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\Base\BundleBase.Rendering.Internals.cs:line 345
+   at SquishIt.Framework.Base.BundleBase`1.RenderRelease(String key, String renderTo, IRenderer renderer) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\Base\BundleBase.Rendering.Internals.cs:line 302
+   at SquishIt.Framework.Base.BundleBase`1.Render(String renderTo, String key, IRenderer renderer) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\Base\BundleBase.Rendering.Internals.cs:line 169
+   at SquishIt.Framework.Base.BundleBase`1.AsCached(String name, String renderToFilePath) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\Base\BundleBase.cs:line 491
+   at BWF.Explorer.StartUp.Utils.CssBundleConfig.RebuildCssBundles()
+   at BWF.Explorer.StartUp.Nancy.ExplorerBootstrapper.ApplicationStartup(IKernel container, IPipelines pipelines)
+   at Nancy.Bootstrapper.NancyBootstrapperBase`1.Initialise()
+   at Nancy.Owin.NancyMiddleware.UseNancy(NancyOptions options)
+   at Owin.AppBuilderExtensions.UseNancy(IAppBuilder builder, NancyOptions options)
+   at BWF.Explorer.StartUp.Concrete.ExplorerStartup.Configuration(IAppBuilder app)
+   at BWF.Explorer.StartUp.Concrete.ExplorerService.<Start>b__4_1(IAppBuilder ab)
+   at Microsoft.Owin.Hosting.Engine.HostingEngine.ResolveApp(StartContext context)
+   at Microsoft.Owin.Hosting.Engine.HostingEngine.Start(StartContext context)
+   at Microsoft.Owin.Hosting.WebApp.StartImplementation(IServiceProvider services, StartOptions options, Action`1 startup)
+   at BWF.Explorer.StartUp.Concrete.ExplorerService.Start()
+2018-05-23 12:09:36,737 INFO  - The Explorer host is up and running.
+2018-05-23 12:09:37,450 INFO  - Data services successfully refreshed for host https://localhost:5555.
+2018-05-23 12:09:39,581 WARN  - Failed to prompt data service at https://localhost:5555/api/explorer to update membership details: An error occurred while sending the request., the service may be temporarily unavailable.
+2018-05-23 12:09:41,584 WARN  - Failed to prompt data service at https://localhost:5555/api/membership to update membership details: An error occurred while sending the request., the service may be temporarily unavailable.
+2018-05-23 12:09:41,584 WARN  - Failed to prompt data service at https://localhost:5555/api/bcr to update membership details: An error occurred while sending the request., the service may be temporarily unavailable.
+2018-05-23 15:56:19,989 INFO  - Resetting session timeout to enabled
+2018-05-23 15:56:20,123 INFO  - Resetting session timeout process to 5 minute interval.
+2018-05-23 15:56:20,635 ERROR - Error starting explorer: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Rajendra.Iyga\BWF\BCRBWF\BCR.ExplorerHost\output\Content\bootstrap.min.css'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at SquishIt.Framework.Files.RetryableFileOpener.OpenTextStreamReader(String filePath, Int32 retry) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\Files\RetryableFileOpener.cs:line 109
+   at SquishIt.Framework.Files.FileReaderFactory.GetFileReader(String file) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\Files\FileReaderFactory.cs:line 18
+   at SquishIt.Framework.Base.BundleBase`1.ReadFile(String file) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\Base\BundleBase.Rendering.Internals.cs:line 100
+   at SquishIt.Framework.CSS.CSSBundle.ProcessCssFile(String file, String outputFile, String fileForCssRewriter, Boolean asImport) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\CSS\CSSBundle.cs:line 140
+   at SquishIt.Framework.CSS.CSSBundle.ProcessFile(String file, String outputFile, Asset originalAsset) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\CSS\CSSBundle.cs:line 133
+   at SquishIt.Framework.CSS.CSSBundle.<>c__DisplayClass7.<>c__DisplayClass9.<AggregateContent>b__4(String f) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\CSS\CSSBundle.cs:line 119
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Enumerable.<SelectManyIterator>d__17`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at SquishIt.Framework.CSS.CSSBundle.AggregateContent(List`1 assets, StringBuilder sb, String outputFile) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\CSS\CSSBundle.cs:line 117
+   at SquishIt.Framework.Base.BundleBase`1.GetMinifiedContent(List`1 assets, String outputFile) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\Base\BundleBase.Rendering.Internals.cs:line 345
+   at SquishIt.Framework.Base.BundleBase`1.RenderRelease(String key, String renderTo, IRenderer renderer) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\Base\BundleBase.Rendering.Internals.cs:line 302
+   at SquishIt.Framework.Base.BundleBase`1.Render(String renderTo, String key, IRenderer renderer) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\Base\BundleBase.Rendering.Internals.cs:line 169
+   at SquishIt.Framework.Base.BundleBase`1.AsCached(String name, String renderToFilePath) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\Base\BundleBase.cs:line 491
+   at BWF.Explorer.StartUp.Utils.CssBundleConfig.RebuildCssBundles()
+   at BWF.Explorer.StartUp.Nancy.ExplorerBootstrapper.ApplicationStartup(IKernel container, IPipelines pipelines)
+   at Nancy.Bootstrapper.NancyBootstrapperBase`1.Initialise()
+   at Nancy.Owin.NancyMiddleware.UseNancy(NancyOptions options)
+   at Owin.AppBuilderExtensions.UseNancy(IAppBuilder builder, NancyOptions options)
+   at BWF.Explorer.StartUp.Concrete.ExplorerStartup.Configuration(IAppBuilder app)
+   at BWF.Explorer.StartUp.Concrete.ExplorerService.<Start>b__4_1(IAppBuilder ab)
+   at Microsoft.Owin.Hosting.Engine.HostingEngine.ResolveApp(StartContext context)
+   at Microsoft.Owin.Hosting.Engine.HostingEngine.Start(StartContext context)
+   at Microsoft.Owin.Hosting.WebApp.StartImplementation(IServiceProvider services, StartOptions options, Action`1 startup)
+   at BWF.Explorer.StartUp.Concrete.ExplorerService.Start()
+2018-05-23 15:56:20,660 INFO  - The Explorer host is up and running.
+2018-05-23 15:56:21,466 INFO  - Data services successfully refreshed for host https://localhost:5555.
+2018-05-23 15:56:23,737 WARN  - Failed to prompt data service at https://localhost:5555/api/bcr to update membership details: An error occurred while sending the request., the service may be temporarily unavailable.
+2018-05-23 15:56:25,744 WARN  - Failed to prompt data service at https://localhost:5555/api/explorer to update membership details: An error occurred while sending the request., the service may be temporarily unavailable.
+2018-05-23 15:56:25,744 WARN  - Failed to prompt data service at https://localhost:5555/api/membership to update membership details: An error occurred while sending the request., the service may be temporarily unavailable.
+2018-05-23 16:12:15,442 INFO  - Resetting session timeout to enabled
+2018-05-23 16:12:15,569 INFO  - Resetting session timeout process to 5 minute interval.
+2018-05-23 16:12:16,063 ERROR - Error starting explorer: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Rajendra.Iyga\BWF\BCRBWF\BCR.ExplorerHost\output\Content\bootstrap.min.css'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at SquishIt.Framework.Files.RetryableFileOpener.OpenTextStreamReader(String filePath, Int32 retry) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\Files\RetryableFileOpener.cs:line 109
+   at SquishIt.Framework.Files.FileReaderFactory.GetFileReader(String file) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\Files\FileReaderFactory.cs:line 18
+   at SquishIt.Framework.Base.BundleBase`1.ReadFile(String file) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\Base\BundleBase.Rendering.Internals.cs:line 100
+   at SquishIt.Framework.CSS.CSSBundle.ProcessCssFile(String file, String outputFile, String fileForCssRewriter, Boolean asImport) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\CSS\CSSBundle.cs:line 140
+   at SquishIt.Framework.CSS.CSSBundle.ProcessFile(String file, String outputFile, Asset originalAsset) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\CSS\CSSBundle.cs:line 133
+   at SquishIt.Framework.CSS.CSSBundle.<>c__DisplayClass7.<>c__DisplayClass9.<AggregateContent>b__4(String f) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\CSS\CSSBundle.cs:line 119
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Enumerable.<SelectManyIterator>d__17`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at SquishIt.Framework.CSS.CSSBundle.AggregateContent(List`1 assets, StringBuilder sb, String outputFile) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\CSS\CSSBundle.cs:line 117
+   at SquishIt.Framework.Base.BundleBase`1.GetMinifiedContent(List`1 assets, String outputFile) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\Base\BundleBase.Rendering.Internals.cs:line 345
+   at SquishIt.Framework.Base.BundleBase`1.RenderRelease(String key, String renderTo, IRenderer renderer) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\Base\BundleBase.Rendering.Internals.cs:line 302
+   at SquishIt.Framework.Base.BundleBase`1.Render(String renderTo, String key, IRenderer renderer) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\Base\BundleBase.Rendering.Internals.cs:line 169
+   at SquishIt.Framework.Base.BundleBase`1.AsCached(String name, String renderToFilePath) in c:\Users\Alex\Projects\SquishIt\SquishIt.Framework\Base\BundleBase.cs:line 491
+   at BWF.Explorer.StartUp.Utils.CssBundleConfig.RebuildCssBundles()
+   at BWF.Explorer.StartUp.Nancy.ExplorerBootstrapper.ApplicationStartup(IKernel container, IPipelines pipelines)
+   at Nancy.Bootstrapper.NancyBootstrapperBase`1.Initialise()
+   at Nancy.Owin.NancyMiddleware.UseNancy(NancyOptions options)
+   at Owin.AppBuilderExtensions.UseNancy(IAppBuilder builder, NancyOptions options)
+   at BWF.Explorer.StartUp.Concrete.ExplorerStartup.Configuration(IAppBuilder app)
+   at BWF.Explorer.StartUp.Concrete.ExplorerService.<Start>b__4_1(IAppBuilder ab)
+   at Microsoft.Owin.Hosting.Engine.HostingEngine.ResolveApp(StartContext context)
+   at Microsoft.Owin.Hosting.Engine.HostingEngine.Start(StartContext context)
+   at Microsoft.Owin.Hosting.WebApp.StartImplementation(IServiceProvider services, StartOptions options, Action`1 startup)
+   at BWF.Explorer.StartUp.Concrete.ExplorerService.Start()
+2018-05-23 16:12:16,087 INFO  - The Explorer host is up and running.
+2018-05-23 16:12:16,862 INFO  - Data services successfully refreshed for host https://localhost:5555.
+2018-05-23 16:12:19,110 WARN  - Failed to prompt data service at https://localhost:5555/api/membership to update membership details: An error occurred while sending the request., the service may be temporarily unavailable.
+2018-05-23 16:12:21,113 WARN  - Failed to prompt data service at https://localhost:5555/api/bcr to update membership details: An error occurred while sending the request., the service may be temporarily unavailable.
+2018-05-23 16:12:21,114 WARN  - Failed to prompt data service at https://localhost:5555/api/explorer to update membership details: An error occurred while sending the request., the service may be temporarily unavailable.
+2018-05-23 16:22:22,571 INFO  - Resetting session timeout to enabled
+2018-05-23 17:22:45,047 INFO  - Resetting session timeout to enabled
+2018-05-23 17:22:45,116 INFO  - Resetting session timeout process to 5 minute interval.
+2018-05-23 17:22:46,531 INFO  - The Explorer host is up and running.
+2018-05-23 17:22:47,310 INFO  - Data services successfully refreshed for host https://localhost:5555.
+2018-05-23 17:23:20,085 INFO  - User 'admin' has logged on
+2018-05-23 17:25:55,825 INFO  - Resetting session timeout to enabled
+2018-05-23 17:25:55,892 INFO  - Resetting session timeout process to 5 minute interval.
+2018-05-23 17:25:57,110 INFO  - The Explorer host is up and running.
+2018-05-23 17:25:57,818 INFO  - Data services successfully refreshed for host https://localhost:5555.
+2018-05-23 17:28:11,007 INFO  - User 'admin' has logged on
+2018-05-23 17:33:31,577 INFO  - User 'admin' has logged off
+2018-05-23 18:22:04,354 INFO  - Resetting session timeout to enabled
+2018-05-23 18:22:04,475 INFO  - Resetting session timeout process to 5 minute interval.
+2018-05-23 18:22:05,984 INFO  - The Explorer host is up and running.
+2018-05-23 18:22:06,753 INFO  - Data services successfully refreshed for host https://localhost:5555.
+2018-05-23 18:22:18,290 INFO  - User 'admin' has logged on

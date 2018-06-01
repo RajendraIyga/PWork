@@ -1,0 +1,12 @@
+C:\Users\Rajendra.Iyga\BWF\BCRBWF\BCR.Domain\bin\Debug\BCR.Domain.dll
+C:\Users\Rajendra.Iyga\BWF\BCRBWF\BCR.Domain\bin\Debug\BCR.Domain.pdb
+C:\Users\Rajendra.Iyga\BWF\BCRBWF\BCR.Domain\bin\Debug\BWF.DataServices.Domain.dll
+C:\Users\Rajendra.Iyga\BWF\BCRBWF\BCR.Domain\bin\Debug\BWF.DataServices.Metadata.dll
+C:\Users\Rajendra.Iyga\BWF\BCRBWF\BCR.Domain\bin\Debug\BWF.Enums.dll
+C:\Users\Rajendra.Iyga\BWF\BCRBWF\BCR.Domain\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Rajendra.Iyga\BWF\BCRBWF\BCR.Domain\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Rajendra.Iyga\BWF\BCRBWF\BCR.Domain\obj\Debug\BCR.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Rajendra.Iyga\BWF\BCRBWF\BCR.Domain\obj\Debug\BCR.Domain.csproj.CopyComplete
+C:\Users\Rajendra.Iyga\BWF\BCRBWF\BCR.Domain\obj\Debug\BCR.Domain.dll
+C:\Users\Rajendra.Iyga\BWF\BCRBWF\BCR.Domain\obj\Debug\BCR.Domain.pdb
+C:\Users\Rajendra.Iyga\BWF\BCRBWF\BCR.Domain\obj\Debug\BCR.Domain.csprojAssemblyReference.cache

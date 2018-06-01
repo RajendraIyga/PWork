@@ -1,0 +1,70 @@
+2018-05-24 10:24:34,339 INFO  - Resetting session timeout to enabled
+2018-05-24 10:24:34,404 INFO  - Resetting session timeout process to 5 minute interval.
+2018-05-24 10:24:36,015 INFO  - The Explorer host is up and running.
+2018-05-24 10:24:36,774 INFO  - Data services successfully refreshed for host https://localhost:5555.
+2018-05-24 10:25:18,072 INFO  - User 'admin' has logged on
+2018-05-24 10:25:46,643 WARN  - 1 invalid orderbys: ''
+2018-05-24 10:25:47,165 WARN  - 1 invalid orderbys: ''
+2018-05-24 10:25:48,819 WARN  - 1 invalid orderbys: ''
+2018-05-24 10:25:50,038 WARN  - 1 invalid orderbys: ''
+2018-05-24 10:25:51,361 WARN  - 1 invalid orderbys: ''
+2018-05-24 10:28:09,774 INFO  - Resetting session timeout to enabled
+2018-05-24 10:28:09,836 INFO  - Resetting session timeout process to 5 minute interval.
+2018-05-24 10:28:11,096 INFO  - The Explorer host is up and running.
+2018-05-24 10:28:11,795 INFO  - Data services successfully refreshed for host https://localhost:5555.
+2018-05-24 10:28:42,121 INFO  - User 'admin' has logged on
+2018-05-24 10:30:19,196 INFO  - Resetting session timeout to enabled
+2018-05-24 10:30:19,262 INFO  - Resetting session timeout process to 5 minute interval.
+2018-05-24 10:30:20,501 INFO  - The Explorer host is up and running.
+2018-05-24 10:30:21,206 INFO  - Data services successfully refreshed for host https://localhost:5555.
+2018-05-24 10:53:31,347 INFO  - User 'admin' has logged on
+2018-05-24 10:57:49,147 INFO  - Query message received by PersonalDataQueryTaskActor: 382553316; 1
+2018-05-24 10:57:49,856 INFO  - Query message received by PersonalDataSubTaskActor: 783401108; 1-Bcr
+2018-05-24 10:57:49,856 INFO  - Query message received by PersonalDataSubTaskActor: 1870929281; 1-Explorer
+2018-05-24 10:57:49,856 INFO  - Query message received by PersonalDataSubTaskActor: 418870323; 1-Membership
+2018-05-24 10:57:50,948 INFO  - Subtask finished message received by PersonalDataQueryTaskActor: 382553316; 1
+2018-05-24 10:57:51,527 INFO  - Subtask finished message received by PersonalDataQueryTaskActor: 382553316; 1
+2018-05-24 10:57:51,762 INFO  - Subtask finished message received by PersonalDataQueryTaskActor: 382553316; 1
+2018-05-24 10:59:12,379 INFO  - Query message received by PersonalDataQueryTaskActor: 1600769126; 2
+2018-05-24 10:59:12,789 INFO  - Query message received by PersonalDataSubTaskActor: 526252510; 2-Bcr
+2018-05-24 10:59:12,798 INFO  - Query message received by PersonalDataSubTaskActor: 522030365; 2-Membership
+2018-05-24 10:59:12,793 INFO  - Query message received by PersonalDataSubTaskActor: 2004831708; 2-Explorer
+2018-05-24 10:59:14,165 INFO  - Subtask finished message received by PersonalDataQueryTaskActor: 1600769126; 2
+2018-05-24 10:59:14,363 INFO  - Subtask finished message received by PersonalDataQueryTaskActor: 1600769126; 2
+2018-05-24 10:59:14,723 INFO  - Subtask finished message received by PersonalDataQueryTaskActor: 1600769126; 2
+2018-05-24 11:04:31,675 INFO  - User 'admin' has logged off
+2018-05-24 11:19:51,282 INFO  - User 'admin' has logged on
+2018-05-24 11:20:20,071 INFO  - Query message received by PersonalDataQueryTaskActor: 671501289; 3
+2018-05-24 11:20:20,476 INFO  - Query message received by PersonalDataSubTaskActor: 420435789; 3-Bcr
+2018-05-24 11:20:20,487 INFO  - Query message received by PersonalDataSubTaskActor: 1666308400; 3-Membership
+2018-05-24 11:20:20,482 INFO  - Query message received by PersonalDataSubTaskActor: 336855758; 3-Explorer
+2018-05-24 11:20:21,696 INFO  - Subtask finished message received by PersonalDataQueryTaskActor: 671501289; 3
+2018-05-24 11:20:21,977 INFO  - Subtask finished message received by PersonalDataQueryTaskActor: 671501289; 3
+2018-05-24 11:20:22,207 INFO  - Subtask finished message received by PersonalDataQueryTaskActor: 671501289; 3
+2018-05-24 11:23:43,956 INFO  - Resetting session timeout to enabled
+2018-05-24 11:23:44,025 INFO  - Resetting session timeout process to 5 minute interval.
+2018-05-24 11:23:45,347 INFO  - The Explorer host is up and running.
+2018-05-24 11:23:46,091 INFO  - Data services successfully refreshed for host https://localhost:5555.
+2018-05-24 11:24:02,758 INFO  - User 'admin' has logged on
+2018-05-24 11:30:09,718 INFO  - User 'admin' has logged off
+2018-05-24 11:40:32,661 INFO  - User 'admin' has logged on
+2018-05-24 11:41:39,054 INFO  - Query message received by PersonalDataQueryTaskActor: 986743100; 11
+2018-05-24 11:41:39,951 INFO  - Query message received by PersonalDataSubTaskActor: 422926568; 11-Bcr
+2018-05-24 11:41:39,951 INFO  - Query message received by PersonalDataSubTaskActor: 1315819099; 11-Explorer
+2018-05-24 11:41:39,951 INFO  - Query message received by PersonalDataSubTaskActor: 99930438; 11-Membership
+2018-05-24 11:41:41,321 INFO  - Subtask finished message received by PersonalDataQueryTaskActor: 986743100; 11
+2018-05-24 11:41:41,714 INFO  - Subtask finished message received by PersonalDataQueryTaskActor: 986743100; 11
+2018-05-24 11:41:42,163 INFO  - Subtask finished message received by PersonalDataQueryTaskActor: 986743100; 11
+2018-05-24 11:47:55,808 INFO  - Query message received by PersonalDataQueryTaskActor: 57475263; 12
+2018-05-24 11:47:56,209 INFO  - Query message received by PersonalDataSubTaskActor: 1405717402; 12-Bcr
+2018-05-24 11:47:56,214 INFO  - Query message received by PersonalDataSubTaskActor: 1643457376; 12-Explorer
+2018-05-24 11:47:56,218 INFO  - Query message received by PersonalDataSubTaskActor: 537763493; 12-Membership
+2018-05-24 11:47:57,245 INFO  - Subtask finished message received by PersonalDataQueryTaskActor: 57475263; 12
+2018-05-24 11:47:57,411 INFO  - Subtask finished message received by PersonalDataQueryTaskActor: 57475263; 12
+2018-05-24 11:47:57,804 INFO  - Subtask finished message received by PersonalDataQueryTaskActor: 57475263; 12
+2018-05-24 11:53:46,021 INFO  - User 'admin' has logged off
+2018-05-24 12:29:02,153 INFO  - Resetting session timeout to enabled
+2018-05-24 12:29:02,222 INFO  - Resetting session timeout process to 5 minute interval.
+2018-05-24 12:29:03,465 INFO  - The Explorer host is up and running.
+2018-05-24 12:29:04,185 INFO  - Data services successfully refreshed for host https://localhost:5555.
+2018-05-24 12:33:55,820 INFO  - User 'admin' has logged on

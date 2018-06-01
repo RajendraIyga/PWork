@@ -1,0 +1,13 @@
+{
+  "name": "bcr.web",
+  "version": "0.0.0",
+  "description": "BCR.Web",
+  "main": "app.js",
+  "author": {
+    "name": "Rajendra.Iyga"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@brady/bwf": "^2046.1.67"
+  }
+}
