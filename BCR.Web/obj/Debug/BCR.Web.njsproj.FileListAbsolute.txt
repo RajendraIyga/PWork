@@ -1,3 +1,6 @@
 C:\Users\Rajendra.Iyga\BWF\BCRBWF\BCR.Web\obj\Debug\BCR.Web.njsproj.CoreCompileInputs.cache
 C:\Users\Rajendra.Iyga\BWF\BCRBWF\BCR.Web\bin\Microsoft.NodejsTools.WebRole.dll
 C:\Users\Rajendra.Iyga\BWF\BCRBWF\BCR.Web\obj\Debug\BCR.Web.njsprojAssemblyReference.cache
+C:\Users\Rajendra.Iyga\Documents\GitHub\BCRBWF\BCR.Web\obj\Debug\BCR.Web.njsprojAssemblyReference.cache
+C:\Users\Rajendra.Iyga\Documents\GitHub\BCRBWF\BCR.Web\obj\Debug\BCR.Web.njsproj.CoreCompileInputs.cache
+C:\Users\Rajendra.Iyga\Documents\GitHub\BCRBWF\BCR.Web\bin\Microsoft.NodejsTools.WebRole.dll

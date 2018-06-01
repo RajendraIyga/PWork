@@ -43,7 +43,7 @@ namespace BCR.DataService.Mappings
             Property(x => x.PhonePager, m => m.Column("sPhonePager"));
             Property(x => x.PhoneTelex, m => m.Column("sPhoneTelex"));
             Property(x => x.PhoneTelexAnswerBack, m => m.Column("sPhoneTelexAnswerBack"));
-           // Property(x => x.Active, m => m.Column("sActive"));
+            Property(x => x.PostCode, m => m.Column("sPostCode"));
 
         }
     }

@@ -28,7 +28,7 @@ namespace BCR.Domain.Models
         public virtual string PhonePager { get; set; }
         public virtual string PhoneTelex { get; set; }
         public virtual string PhoneTelexAnswerBack { get; set; }
-       // public virtual string Active { get; set; }
+       public virtual string PostCode { get; set; }
 
         public override int GetHashCode()
         {

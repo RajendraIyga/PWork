@@ -38,8 +38,8 @@ namespace BCR.Domain.Metadata
                   .Property(x => x.PhoneFax)
                   .Property(x => x.PhonePager)
                   .Property(x => x.PhoneTelex)
-                  .Property(x => x.PhoneTelexAnswerBack);
-                //  .Property(x => x.Active);
+                  .Property(x => x.PhoneTelexAnswerBack)
+                  .Property(x => x.PostCode);
             StringProperty(x => x.Id)
               .IsId()
                .IsHidden();
@@ -133,11 +133,11 @@ namespace BCR.Domain.Metadata
               .PersonalData(p => p
                     .IncludeInErasure(PersonalDataErasureRule.Blank)
                     .IncludeInReport());
-            //StringProperty(x => x.Active)
-            //  .IsFreeFormat()
-            //  .PersonalData(p => p
-            //        .IncludeInErasure(PersonalDataErasureRule.Blank)
-            //        .IncludeInReport());
+            StringProperty(x => x.PostCode)
+              .IsFreeFormat()
+              .PersonalData(p => p
+                    .IncludeInErasure(PersonalDataErasureRule.Blank)
+                    .IncludeInReport());
 
         }
     }
