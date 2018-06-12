@@ -17,7 +17,7 @@ namespace BCR.Domain.Metadata
 
             ViewDefaults()
              .Property(x => x.ContactId)
-            //.Property(x => x.ContactSalutationId)
+           
             .Property(x => x.FirstName)
             .Property(x => x.MiddleName)
             .Property(x => x.LastName)
@@ -29,11 +29,11 @@ namespace BCR.Domain.Metadata
             .Property(x => x.AddressLine1)
             .Property(x => x.AddressLine2)
             .Property(x => x.AddressLine3)
-           // .Property(x => x.CityId)
+          
             .Property(x => x.Country)
-           // .Property(x => x.StateId)
+          
             .Property(x => x.PostCode)
-           // .Property(x => x.CountryId)
+           
             .Property(x => x.Comments)
             .Property(x => x.Email1)
             .Property(x => x.Email2)
@@ -54,11 +54,7 @@ namespace BCR.Domain.Metadata
                 .IsHidden();
 
 
-            //StringProperty(x => x.ContactSalutationId)
-            //    .IsFreeFormat()
-            //    .PersonalData(p => p
-            //        .IncludeInErasure(PersonalDataErasureRule.Blank)
-            //       );
+           
             StringProperty(x => x.FirstName)
                 .IsFreeFormat()
                 .PersonalData(p => p
@@ -131,36 +127,23 @@ namespace BCR.Domain.Metadata
                  .IncludeInErasure()
                     .IncludeInErasure(PersonalDataErasureRule.Blank)
                    );
-            //IntegerProperty(x => x.CityId)
-            //    .IsHidden()
-            //     .PersonalData(p => p
-            //     .IncludeInErasure()
-            //        .IncludeInErasure(PersonalDataErasureRule.Blank)
-            //       );
+            
             StringProperty(x => x.Country)
                 .IsFreeFormat()
                  .PersonalData(p => p
                  .IncludeInErasure()
                     .IncludeInErasure(PersonalDataErasureRule.Obfuscate)
                    );
-            //IntegerProperty(x => x.StateId)
-            //     .IsHidden()
-            //     .PersonalData(p => p
-            //     .IncludeInErasure()
-            //        .IncludeInErasure(PersonalDataErasureRule.Blank)
-            //       );
+           
             StringProperty(x => x.PostCode)
                  .IsFreeFormat()
                  .PersonalData(p => p
                  .IncludeInErasure()
-                    .IncludeInErasure(PersonalDataErasureRule.Ignore)
+                    .IncludeInErasure(PersonalDataErasureRule.Obfuscate,32)
+                    .IncludeInReport()
+                    
                    );
-            //IntegerProperty(x => x.CountryId)
-            //    .IsHidden()
-            //     .PersonalData(p => p
-            //     .IncludeInErasure()
-            //        .IncludeInErasure(PersonalDataErasureRule.Blank)
-            //       );
+            
             StringProperty(x => x.Comments)
                   .IsFreeFormat()
                  .PersonalData(p => p

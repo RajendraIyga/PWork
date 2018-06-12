@@ -38,80 +38,80 @@
     <Reference Include="AutoMapper, Version=4.1.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
       <HintPath>..\packages\AutoMapper.4.1.1\lib\net45\AutoMapper.dll</HintPath>
     </Reference>
-    <Reference Include="BWF.DataServices.Client, Version=2046.1.67.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\combined-bwf-inmemory-dataservice.2046.1.67\lib\net461\BWF.DataServices.Client.dll</HintPath>
+    <Reference Include="BWF.DataServices.Client, Version=2046.1.76.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\combined-bwf-inmemory-dataservice.2046.1.76\lib\net461\BWF.DataServices.Client.dll</HintPath>
     </Reference>
-    <Reference Include="BWF.DataServices.Client.Repository, Version=2046.1.67.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\combined-bwf-client-repository.2046.1.67\lib\portable-net45+win+wpa81+wp80+MonoAndroid60+Xamarin.iOS10+MonoTouch10\BWF.DataServices.Client.Repository.dll</HintPath>
+    <Reference Include="BWF.DataServices.Client.Repository, Version=2046.1.76.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\combined-bwf-client-repository.2046.1.76\lib\portable-net45+win+wpa81+wp80+MonoAndroid60+Xamarin.iOS10+MonoTouch10\BWF.DataServices.Client.Repository.dll</HintPath>
     </Reference>
     <Reference Include="BWF.DataServices.Combined, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\combined-bwf-inmemory-dataservice.2046.1.67\lib\net461\BWF.DataServices.Combined.dll</HintPath>
+      <HintPath>..\packages\combined-bwf-inmemory-dataservice.2046.1.76\lib\net461\BWF.DataServices.Combined.dll</HintPath>
     </Reference>
-    <Reference Include="BWF.DataServices.Core, Version=2046.1.67.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\combined-bwf-inmemory-dataservice.2046.1.67\lib\net461\BWF.DataServices.Core.dll</HintPath>
+    <Reference Include="BWF.DataServices.Core, Version=2046.1.76.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\combined-bwf-inmemory-dataservice.2046.1.76\lib\net461\BWF.DataServices.Core.dll</HintPath>
     </Reference>
-    <Reference Include="BWF.DataServices.Domain, Version=2046.1.67.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\combined-bwf-domain.2046.1.67\lib\portable-net45+win+wpa81+wp80+MonoAndroid60+Xamarin.iOS10+MonoTouch10\BWF.DataServices.Domain.dll</HintPath>
+    <Reference Include="BWF.DataServices.Domain, Version=2046.1.76.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\combined-bwf-domain.2046.1.76\lib\portable-net45+win+wpa81+wp80+MonoAndroid60+Xamarin.iOS10+MonoTouch10\BWF.DataServices.Domain.dll</HintPath>
     </Reference>
     <Reference Include="BWF.DataServices.FilterConverters.DynamicLinq, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\combined-bwf-inmemory-dataservice.2046.1.67\lib\net461\BWF.DataServices.FilterConverters.DynamicLinq.dll</HintPath>
+      <HintPath>..\packages\combined-bwf-inmemory-dataservice.2046.1.76\lib\net461\BWF.DataServices.FilterConverters.DynamicLinq.dll</HintPath>
     </Reference>
     <Reference Include="BWF.DataServices.FilterConverters.NHibernate, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\combined-bwf-nhibernate-dataservice.2046.1.67\lib\net461\BWF.DataServices.FilterConverters.NHibernate.dll</HintPath>
+      <HintPath>..\packages\combined-bwf-nhibernate-dataservice.2046.1.76\lib\net461\BWF.DataServices.FilterConverters.NHibernate.dll</HintPath>
     </Reference>
     <Reference Include="BWF.DataServices.Live.Notification, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\combined-bwf-inmemory-dataservice.2046.1.67\lib\net461\BWF.DataServices.Live.Notification.dll</HintPath>
+      <HintPath>..\packages\combined-bwf-inmemory-dataservice.2046.1.76\lib\net461\BWF.DataServices.Live.Notification.dll</HintPath>
     </Reference>
-    <Reference Include="BWF.DataServices.Mapping, Version=2046.1.67.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\combined-bwf-inmemory-dataservice.2046.1.67\lib\net461\BWF.DataServices.Mapping.dll</HintPath>
+    <Reference Include="BWF.DataServices.Mapping, Version=2046.1.76.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\combined-bwf-inmemory-dataservice.2046.1.76\lib\net461\BWF.DataServices.Mapping.dll</HintPath>
     </Reference>
-    <Reference Include="BWF.DataServices.Metadata, Version=2046.1.67.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\combined-bwf-domain.2046.1.67\lib\portable-net45+win+wpa81+wp80+MonoAndroid60+Xamarin.iOS10+MonoTouch10\BWF.DataServices.Metadata.dll</HintPath>
+    <Reference Include="BWF.DataServices.Metadata, Version=2046.1.76.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\combined-bwf-domain.2046.1.76\lib\portable-net45+win+wpa81+wp80+MonoAndroid60+Xamarin.iOS10+MonoTouch10\BWF.DataServices.Metadata.dll</HintPath>
     </Reference>
     <Reference Include="BWF.DataServices.Parser, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\combined-bwf-inmemory-dataservice.2046.1.67\lib\net461\BWF.DataServices.Parser.dll</HintPath>
+      <HintPath>..\packages\combined-bwf-inmemory-dataservice.2046.1.76\lib\net461\BWF.DataServices.Parser.dll</HintPath>
     </Reference>
-    <Reference Include="BWF.DataServices.PortableClients, Version=2046.1.67.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\combined-bwf-client.2046.1.67\lib\portable-net45+win+wpa81+wp80+MonoAndroid60+Xamarin.iOS10+MonoTouch10\BWF.DataServices.PortableClients.dll</HintPath>
+    <Reference Include="BWF.DataServices.PortableClients, Version=2046.1.76.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\combined-bwf-client.2046.1.76\lib\portable-net45+win+wpa81+wp80+MonoAndroid60+Xamarin.iOS10+MonoTouch10\BWF.DataServices.PortableClients.dll</HintPath>
     </Reference>
-    <Reference Include="BWF.DataServices.Query, Version=2046.1.67.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\combined-bwf-inmemory-dataservice.2046.1.67\lib\net461\BWF.DataServices.Query.dll</HintPath>
+    <Reference Include="BWF.DataServices.Query, Version=2046.1.76.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\combined-bwf-inmemory-dataservice.2046.1.76\lib\net461\BWF.DataServices.Query.dll</HintPath>
     </Reference>
-    <Reference Include="BWF.DataServices.QueryConverters.InMemory, Version=2046.1.67.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\combined-bwf-inmemory-dataservice.2046.1.67\lib\net461\BWF.DataServices.QueryConverters.InMemory.dll</HintPath>
+    <Reference Include="BWF.DataServices.QueryConverters.InMemory, Version=2046.1.76.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\combined-bwf-inmemory-dataservice.2046.1.76\lib\net461\BWF.DataServices.QueryConverters.InMemory.dll</HintPath>
     </Reference>
-    <Reference Include="BWF.DataServices.QueryConverters.NHibernate, Version=2046.1.67.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\combined-bwf-nhibernate-dataservice.2046.1.67\lib\net461\BWF.DataServices.QueryConverters.NHibernate.dll</HintPath>
+    <Reference Include="BWF.DataServices.QueryConverters.NHibernate, Version=2046.1.76.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\combined-bwf-nhibernate-dataservice.2046.1.76\lib\net461\BWF.DataServices.QueryConverters.NHibernate.dll</HintPath>
     </Reference>
     <Reference Include="BWF.DataServices.QueryExecutors.NHibernate, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\combined-bwf-nhibernate-dataservice.2046.1.67\lib\net461\BWF.DataServices.QueryExecutors.NHibernate.dll</HintPath>
+      <HintPath>..\packages\combined-bwf-nhibernate-dataservice.2046.1.76\lib\net461\BWF.DataServices.QueryExecutors.NHibernate.dll</HintPath>
     </Reference>
-    <Reference Include="BWF.DataServices.Support.NHibernate, Version=2046.1.67.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\combined-bwf-nhibernate-dataservice.2046.1.67\lib\net461\BWF.DataServices.Support.NHibernate.dll</HintPath>
+    <Reference Include="BWF.DataServices.Support.NHibernate, Version=2046.1.76.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\combined-bwf-nhibernate-dataservice.2046.1.76\lib\net461\BWF.DataServices.Support.NHibernate.dll</HintPath>
     </Reference>
-    <Reference Include="BWF.DataServices.Support.NHibernate.UserTypes, Version=2046.1.67.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\combined-bwf-nhibernate-dataservice.2046.1.67\lib\net461\BWF.DataServices.Support.NHibernate.UserTypes.dll</HintPath>
+    <Reference Include="BWF.DataServices.Support.NHibernate.UserTypes, Version=2046.1.76.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\combined-bwf-nhibernate-dataservice.2046.1.76\lib\net461\BWF.DataServices.Support.NHibernate.UserTypes.dll</HintPath>
     </Reference>
-    <Reference Include="BWF.Enums, Version=2046.1.67.0, Culture=neutral, PublicKeyToken=3bc3db66488aec07, processorArchitecture=MSIL">
-      <HintPath>..\packages\combined-bwf-domain.2046.1.67\lib\portable-net45+win+wpa81+wp80+MonoAndroid60+Xamarin.iOS10+MonoTouch10\BWF.Enums.dll</HintPath>
+    <Reference Include="BWF.Enums, Version=2046.1.76.0, Culture=neutral, PublicKeyToken=3bc3db66488aec07, processorArchitecture=MSIL">
+      <HintPath>..\packages\combined-bwf-domain.2046.1.76\lib\portable-net45+win+wpa81+wp80+MonoAndroid60+Xamarin.iOS10+MonoTouch10\BWF.Enums.dll</HintPath>
     </Reference>
-    <Reference Include="BWF.Explorer.Domain, Version=2046.1.67.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\combined-bwf-client.2046.1.67\lib\portable-net45+win+wpa81+wp80+MonoAndroid60+Xamarin.iOS10+MonoTouch10\BWF.Explorer.Domain.dll</HintPath>
+    <Reference Include="BWF.Explorer.Domain, Version=2046.1.76.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\combined-bwf-client.2046.1.76\lib\portable-net45+win+wpa81+wp80+MonoAndroid60+Xamarin.iOS10+MonoTouch10\BWF.Explorer.Domain.dll</HintPath>
     </Reference>
-    <Reference Include="BWF.Explorer.Utils, Version=2046.1.67.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\combined-bwf-inmemory-dataservice.2046.1.67\lib\net461\BWF.Explorer.Utils.dll</HintPath>
+    <Reference Include="BWF.Explorer.Utils, Version=2046.1.76.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\combined-bwf-inmemory-dataservice.2046.1.76\lib\net461\BWF.Explorer.Utils.dll</HintPath>
     </Reference>
-    <Reference Include="BWF.Globalisation, Version=2046.1.67.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\combined-bwf-inmemory-dataservice.2046.1.67\lib\net461\BWF.Globalisation.dll</HintPath>
+    <Reference Include="BWF.Globalisation, Version=2046.1.76.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\combined-bwf-inmemory-dataservice.2046.1.76\lib\net461\BWF.Globalisation.dll</HintPath>
     </Reference>
-    <Reference Include="BWF.Hosting.Infrastructure, Version=2046.1.67.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\combined-bwf-inmemory-dataservice.2046.1.67\lib\net461\BWF.Hosting.Infrastructure.dll</HintPath>
+    <Reference Include="BWF.Hosting.Infrastructure, Version=2046.1.76.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\combined-bwf-inmemory-dataservice.2046.1.76\lib\net461\BWF.Hosting.Infrastructure.dll</HintPath>
     </Reference>
-    <Reference Include="BWF.Membership.Domain, Version=2046.1.67.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\combined-bwf-inmemory-dataservice.2046.1.67\lib\net461\BWF.Membership.Domain.dll</HintPath>
+    <Reference Include="BWF.Membership.Domain, Version=2046.1.76.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\combined-bwf-inmemory-dataservice.2046.1.76\lib\net461\BWF.Membership.Domain.dll</HintPath>
     </Reference>
-    <Reference Include="BWF.Membership.Interfaces, Version=2046.1.67.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\combined-bwf-inmemory-dataservice.2046.1.67\lib\net461\BWF.Membership.Interfaces.dll</HintPath>
+    <Reference Include="BWF.Membership.Interfaces, Version=2046.1.76.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\combined-bwf-inmemory-dataservice.2046.1.76\lib\net461\BWF.Membership.Interfaces.dll</HintPath>
     </Reference>
     <Reference Include="Deedle, Version=1.2.3.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\bwf-deedle.2017.2.2\lib\net45\Deedle.dll</HintPath>
@@ -265,5 +265,7 @@
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
+    <Error Condition="!Exists('..\packages\NETStandard.Library.2.0.0\build\netstandard2.0\NETStandard.Library.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NETStandard.Library.2.0.0\build\netstandard2.0\NETStandard.Library.targets'))" />
   </Target>
+  <Import Project="..\packages\NETStandard.Library.2.0.0\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('..\packages\NETStandard.Library.2.0.0\build\netstandard2.0\NETStandard.Library.targets')" />
 </Project>
