@@ -26,11 +26,11 @@ namespace BCR.Domain.Models
         public virtual string AddressLine1 { get; set; }
         public virtual string AddressLine2 { get; set; }
         public virtual string AddressLine3 { get; set; }
-       // public virtual long CityId { get; set; }
+        public virtual int CityId { get; set; }
         public virtual string Country { get; set; }
-       // public virtual long StateId { get; set; }
+        public virtual int StateId { get; set; }
         public virtual string PostCode { get; set; }
-      //  public virtual long CountryId { get; set; }
+        public virtual int CountryId { get; set; }
         public virtual string Comments { get; set; }
         public virtual string Email1 { get; set; }
         public virtual string Email2 { get; set; }

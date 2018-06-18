@@ -29,11 +29,11 @@ namespace BCR.DataService.Mappings
             Property(x => x.AddressLine1, m => m.Column("sAddressLine1"));
             Property(x => x.AddressLine2, m => m.Column("sAddressLine2"));
             Property(x => x.AddressLine3, m => m.Column("sAddressLine3"));
-        //    Property(x => x.CityId, m => m.Column("lCityId"));
+            Property(x => x.CityId, m => m.Column("lCityId"));
             Property(x => x.Country, m => m.Column("sCounty"));
-         //   Property(x => x.StateId, m => m.Column("lStateId"));
+            Property(x => x.StateId, m => m.Column("lStateId"));
             Property(x => x.PostCode, m => m.Column("sPostCode"));
-        //    Property(x => x.CountryId, m => m.Column("lCountryId"));
+            Property(x => x.CountryId, m => m.Column("lCountryId"));
             Property(x => x.Comments, m => m.Column("sComments"));
             Property(x => x.Email1, m => m.Column("sEmail1"));
             Property(x => x.Email2, m => m.Column("sEmail2"));

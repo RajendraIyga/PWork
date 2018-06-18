@@ -1,0 +1,4 @@
+
+BCR.ExplorerHost.exe install -instance=BCRGDPR
+
+BCR.ExplorerHost.exe uninstall -instance=BCRGDPR
